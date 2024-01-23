@@ -1,24 +1,24 @@
-# The Docker image that will be used to build your app
 image: node:lts
-# Functions that should be executed before the build script is run
+
+
 stages:
-  - build
-  - run
+  - test
+  - deploy
 
-first-job:
-  # Define stage
-  stage: build
-  # What to run on the job.
+test:
+  stage: test
   script:
+    - cd website
     - npm install
-  artifacts:
-    paths:
-      - node_modules
+    - npm build
 
-second-job:
-  stage: run
+pages:
+  stage: deploy
   script:
-    - npm start
+    - cd website
+    - npm install
+    - npm build
+    - mv ./build ../public
   artifacts:
     paths:
-      - node_modules/
+      - public
