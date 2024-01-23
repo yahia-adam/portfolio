@@ -13,21 +13,20 @@ function AboutCard() {
             <br />
             I am currently employed as a fullStack developer at By The Way.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed my first year at Epitech and my second year at ESGI.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Attending tech events, like VivaTech
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Participating in online competitions, such as Kaggle.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Writing tech blogs.
             </li>
           </ul>
 
