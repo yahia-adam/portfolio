@@ -10,14 +10,14 @@ test:
   script:
     - cd website
     - npm install
-    - npm build
+    - npm run build
 
 pages:
   stage: deploy
   script:
     - cd website
     - npm install
-    - npm build
+    - npm run build
     - mv ./build ../public
   artifacts:
     paths:
