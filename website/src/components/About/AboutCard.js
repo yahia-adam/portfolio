@@ -20,7 +20,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Attending tech events, like VivaTech
+              <ImPointRight /> Attending tech events, like VivaTech.
             </li>
             <li className="about-activity">
               <ImPointRight /> Participating in online competitions, such as Kaggle.
